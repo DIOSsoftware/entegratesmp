@@ -1,0 +1,24 @@
+# ModPaket Hazırlama Rehberi
+
+Bu klasör, GitHub'a yükleyeceğiniz mod paketi taslağıdır.
+
+## Nasıl Kullanılır?
+
+1. **Modlar:** Kullanmak istediğiniz tüm modları (.jar dosyaları) `mods` klasörüne atın.
+2. **Resource Packler:** Texture packlerinizi `resourcepacks` klasörüne atın.
+3. **Ayarlar:** Mod ayar dosyalarınızı `config` klasörüne atın.
+
+## GitHub'a Yükleme
+
+1. GitHub'da yeni bir "Public" (Herkese Açık) repository oluşturun.
+2. Bu klasörün içindekileri oraya yükleyin.
+3. Yükledikten sonra Sunucu tarafında bu repository adresini (KullanıcıAdı/RepoAdı) kullanacağız.
+
+Örneğin yapı şöyle görünmeli:
+- modpack-repo/
+  - mods/
+    - sodium.jar
+    - iris.jar
+  - config/
+    - sodium-options.json
+  - resourcepacks/
